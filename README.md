@@ -45,7 +45,7 @@ cd /path/to/your/StableRunListReader
   -i ahcal_run_times.json \
   -o ahcal_run_times_with_good_intervals.json \
   --influx-no-verify \
-
+```
 ## Input JSON
 The input is a JSON list. Each entry must contain at least:
 
