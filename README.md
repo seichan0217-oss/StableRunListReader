@@ -26,16 +26,6 @@ source setup.sh
 `daq_conditions.py` reads `faser-secret.json` to access the InfluxDB database.
 Put `faser-secret.json` in the current directory before running the DAQ check.
 
-## Processing Flow
-1. Read `ahcal_run_times.json`, usually made by `get_ahcal_run_times.py`.
-2. Convert each run start/stop time to Unix timestamps.
-3. Read LHC `/LHC/BeamData` and put `BeamMode == STABLE BEAMS` intervals into `stable_list`.
-4. Drop runs with an empty `stable_list`.
-5. If the run configuration is not allowed, add the whole stable interval to `excluded_list`.
-6. Add ATLAS luminosity DB coverage gaps to `excluded_list`.
-7. Add AHCAL/DAQ InfluxDB counter missing/gap intervals to `excluded_list`.
-8. Compute `good_list = stable_list - excluded_list`.
-9. Write the enriched JSON.
 
 ## Basic Command
 ```bash
@@ -46,6 +36,8 @@ cd /path/to/your/StableRunListReader
   -o ahcal_run_times_with_good_intervals.json \
   --influx-no-verify \
 ```
+
+
 ## Input JSON
 The input is a JSON list. Each entry must contain at least:
 
@@ -79,7 +71,16 @@ Example output entry:
   "good_time_sec": 23461.0
 }
 ```
-
+## Processing Flow
+1. Read `ahcal_run_times.json`, usually made by `get_ahcal_run_times.py`.
+2. Convert each run start/stop time to Unix timestamps.
+3. Read LHC `/LHC/BeamData` and put `BeamMode == STABLE BEAMS` intervals into `stable_list`.
+4. Drop runs with an empty `stable_list`.
+5. If the run configuration is not allowed, add the whole stable interval to `excluded_list`.
+6. Add ATLAS luminosity DB coverage gaps to `excluded_list`.
+7. Add AHCAL/DAQ InfluxDB counter missing/gap intervals to `excluded_list`.
+8. Compute `good_list = stable_list - excluded_list`.
+9. Write the enriched JSON.
 
 ## Stable List Condition
 
