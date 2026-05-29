@@ -1,12 +1,5 @@
 __pycache__/
 *.py[cod]
-
-README.md
-README_en.md
-README_ja.md
-
 .asetup.save
 faser-secret.json
-output.json
-
 .DS_Store
