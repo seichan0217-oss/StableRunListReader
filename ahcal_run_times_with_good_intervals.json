@@ -1,0 +1,1594 @@
+[
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11471,
+        "start_time": "2026-03-07T14:58:02.000000",
+        "start_utime": 1772895482.0,
+        "stop_time": "2026-03-07T21:29:03.000000",
+        "stop_utime": 1772918943.0
+      }
+    ],
+    "good_time_sec": 23461.0,
+    "run_number": 22127,
+    "stable_list": [
+      {
+        "lhc_fill": 11471,
+        "start_time": "2026-03-07T14:58:02.000000",
+        "start_utime": 1772895482.0,
+        "stop_time": "2026-03-07T21:29:03.000000",
+        "stop_utime": 1772918943.0
+      }
+    ],
+    "stable_time_sec": 23461.0,
+    "start_time": "2026-03-07T14:21:22.895443",
+    "start_utime": 1772893282.895443,
+    "stop_time": "2026-03-07T21:31:11.814793",
+    "stop_utime": 1772919071.814793
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11472,
+        "start_time": "2026-03-07T23:01:36.000000",
+        "start_utime": 1772924496.0,
+        "stop_time": "2026-03-08T07:34:19.000000",
+        "stop_utime": 1772955259.0
+      }
+    ],
+    "good_time_sec": 30763.0,
+    "run_number": 22129,
+    "stable_list": [
+      {
+        "lhc_fill": 11472,
+        "start_time": "2026-03-07T23:01:36.000000",
+        "start_utime": 1772924496.0,
+        "stop_time": "2026-03-08T07:34:19.000000",
+        "stop_utime": 1772955259.0
+      }
+    ],
+    "stable_time_sec": 30763.0,
+    "start_time": "2026-03-07T21:31:18.537627",
+    "start_utime": 1772919078.537627,
+    "stop_time": "2026-03-08T07:41:14.521450",
+    "stop_utime": 1772955674.52145
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11474,
+        "start_time": "2026-03-08T11:59:59.000000",
+        "start_utime": 1772971199.0,
+        "stop_time": "2026-03-08T21:04:39.000000",
+        "stop_utime": 1773003879.0
+      }
+    ],
+    "good_time_sec": 32680.0,
+    "run_number": 22133,
+    "stable_list": [
+      {
+        "lhc_fill": 11474,
+        "start_time": "2026-03-08T11:59:59.000000",
+        "start_utime": 1772971199.0,
+        "stop_time": "2026-03-08T21:04:39.000000",
+        "stop_utime": 1773003879.0
+      }
+    ],
+    "stable_time_sec": 32680.0,
+    "start_time": "2026-03-08T09:31:57.838790",
+    "start_utime": 1772962317.83879,
+    "stop_time": "2026-03-08T21:05:32.807828",
+    "stop_utime": 1773003932.807828
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11475,
+        "start_time": "2026-03-08T22:56:17.000000",
+        "start_utime": 1773010577.0,
+        "stop_time": "2026-03-09T08:38:24.000000",
+        "stop_utime": 1773045504.0
+      }
+    ],
+    "good_time_sec": 34927.0,
+    "run_number": 22135,
+    "stable_list": [
+      {
+        "lhc_fill": 11475,
+        "start_time": "2026-03-08T22:56:17.000000",
+        "start_utime": 1773010577.0,
+        "stop_time": "2026-03-09T08:38:24.000000",
+        "stop_utime": 1773045504.0
+      }
+    ],
+    "stable_time_sec": 34927.0,
+    "start_time": "2026-03-08T21:05:40.551388",
+    "start_utime": 1773003940.551388,
+    "stop_time": "2026-03-09T08:53:01.453570",
+    "stop_utime": 1773046381.45357
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11477,
+        "start_time": "2026-03-09T13:24:51.000000",
+        "start_utime": 1773062691.0,
+        "stop_time": "2026-03-09T22:51:38.000000",
+        "stop_utime": 1773096698.0
+      }
+    ],
+    "good_time_sec": 34007.0,
+    "run_number": 22142,
+    "stable_list": [
+      {
+        "lhc_fill": 11477,
+        "start_time": "2026-03-09T13:24:51.000000",
+        "start_utime": 1773062691.0,
+        "stop_time": "2026-03-09T22:51:38.000000",
+        "stop_utime": 1773096698.0
+      }
+    ],
+    "stable_time_sec": 34007.0,
+    "start_time": "2026-03-09T11:45:34.305508",
+    "start_utime": 1773056734.305508,
+    "stop_time": "2026-03-09T23:19:28.776467",
+    "stop_utime": 1773098368.776467
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11479,
+        "start_time": "2026-03-10T01:03:21.000000",
+        "start_utime": 1773104601.0,
+        "stop_time": "2026-03-10T09:24:20.000000",
+        "stop_utime": 1773134660.0
+      }
+    ],
+    "good_time_sec": 30059.0,
+    "run_number": 22163,
+    "stable_list": [
+      {
+        "lhc_fill": 11479,
+        "start_time": "2026-03-10T01:03:21.000000",
+        "start_utime": 1773104601.0,
+        "stop_time": "2026-03-10T09:24:20.000000",
+        "stop_utime": 1773134660.0
+      }
+    ],
+    "stable_time_sec": 30059.0,
+    "start_time": "2026-03-10T00:07:57.933526",
+    "start_utime": 1773101277.933526,
+    "stop_time": "2026-03-10T09:30:52.811986",
+    "stop_utime": 1773135052.811986
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T13:56:06.000000",
+        "start_utime": 1773150966.0,
+        "stop_time": "2026-03-10T14:38:16.014126",
+        "stop_utime": 1773153496.014126
+      }
+    ],
+    "good_time_sec": 2530.014126062393,
+    "run_number": 22169,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T13:56:06.000000",
+        "start_utime": 1773150966.0,
+        "stop_time": "2026-03-10T14:38:16.014126",
+        "stop_utime": 1773153496.014126
+      }
+    ],
+    "stable_time_sec": 2530.014126062393,
+    "start_time": "2026-03-10T12:29:11.545604",
+    "start_utime": 1773145751.545604,
+    "stop_time": "2026-03-10T14:38:16.014126",
+    "stop_utime": 1773153496.014126
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_NoPreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:39:43.177051",
+        "start_utime": 1773153583.177051,
+        "stop_time": "2026-03-10T14:42:19.708555",
+        "stop_utime": 1773153739.708555
+      }
+    ],
+    "good_time_sec": 156.53150391578674,
+    "run_number": 22170,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:39:43.177051",
+        "start_utime": 1773153583.177051,
+        "stop_time": "2026-03-10T14:42:19.708555",
+        "stop_utime": 1773153739.708555
+      }
+    ],
+    "stable_time_sec": 156.53150391578674,
+    "start_time": "2026-03-10T14:39:43.177051",
+    "start_utime": 1773153583.177051,
+    "stop_time": "2026-03-10T14:42:19.708555",
+    "stop_utime": 1773153739.708555
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:43:58.035720",
+        "start_utime": 1773153838.03572,
+        "stop_time": "2026-03-10T14:47:41.460080",
+        "stop_utime": 1773154061.46008
+      }
+    ],
+    "good_time_sec": 223.4243597984314,
+    "run_number": 22171,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:43:58.035720",
+        "start_utime": 1773153838.03572,
+        "stop_time": "2026-03-10T14:47:41.460080",
+        "stop_utime": 1773154061.46008
+      }
+    ],
+    "stable_time_sec": 223.4243597984314,
+    "start_time": "2026-03-10T14:43:58.035720",
+    "start_utime": 1773153838.03572,
+    "stop_time": "2026-03-10T14:47:41.460080",
+    "stop_utime": 1773154061.46008
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [
+      {
+        "reason": "DAQ counter reset ahcaleventreceiver00-EventNumber",
+        "start_time": "2026-03-10T14:47:56.000000",
+        "start_utime": 1773154076.0,
+        "stop_time": "2026-03-10T14:47:57.000000",
+        "stop_utime": 1773154077.0
+      }
+    ],
+    "excluded_time_sec": 1.0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:47:57.000000",
+        "start_utime": 1773154077.0,
+        "stop_time": "2026-03-10T14:50:08.800702",
+        "stop_utime": 1773154208.800702
+      }
+    ],
+    "good_time_sec": 131.80070209503174,
+    "run_number": 22172,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:47:56.900051",
+        "start_utime": 1773154076.900051,
+        "stop_time": "2026-03-10T14:50:08.800702",
+        "stop_utime": 1773154208.800702
+      }
+    ],
+    "stable_time_sec": 131.90065097808838,
+    "start_time": "2026-03-10T14:47:56.900051",
+    "start_utime": 1773154076.900051,
+    "stop_time": "2026-03-10T14:50:08.800702",
+    "stop_utime": 1773154208.800702
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [
+      {
+        "reason": "DAQ counter reset ahcaleventreceiver00-EventNumber",
+        "start_time": "2026-03-10T14:50:24.000000",
+        "start_utime": 1773154224.0,
+        "stop_time": "2026-03-10T14:50:25.000000",
+        "stop_utime": 1773154225.0
+      }
+    ],
+    "excluded_time_sec": 1.0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:50:25.000000",
+        "start_utime": 1773154225.0,
+        "stop_time": "2026-03-10T14:50:42.054215",
+        "stop_utime": 1773154242.054215
+      }
+    ],
+    "good_time_sec": 17.05421495437622,
+    "run_number": 22173,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:50:24.554526",
+        "start_utime": 1773154224.554526,
+        "stop_time": "2026-03-10T14:50:42.054215",
+        "stop_utime": 1773154242.054215
+      }
+    ],
+    "stable_time_sec": 17.499688863754272,
+    "start_time": "2026-03-10T14:50:24.554526",
+    "start_utime": 1773154224.554526,
+    "stop_time": "2026-03-10T14:50:42.054215",
+    "stop_utime": 1773154242.054215
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:51:22.688508",
+        "start_utime": 1773154282.688508,
+        "stop_time": "2026-03-10T14:53:44.153570",
+        "stop_utime": 1773154424.15357
+      }
+    ],
+    "good_time_sec": 141.46506190299988,
+    "run_number": 22174,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:51:22.688508",
+        "start_utime": 1773154282.688508,
+        "stop_time": "2026-03-10T14:53:44.153570",
+        "stop_utime": 1773154424.15357
+      }
+    ],
+    "stable_time_sec": 141.46506190299988,
+    "start_time": "2026-03-10T14:51:22.688508",
+    "start_utime": 1773154282.688508,
+    "stop_time": "2026-03-10T14:53:44.153570",
+    "stop_utime": 1773154424.15357
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:55:16.871558",
+        "start_utime": 1773154516.871558,
+        "stop_time": "2026-03-10T14:57:20.331807",
+        "stop_utime": 1773154640.331807
+      }
+    ],
+    "good_time_sec": 123.46024894714355,
+    "run_number": 22175,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:55:16.871558",
+        "start_utime": 1773154516.871558,
+        "stop_time": "2026-03-10T14:57:20.331807",
+        "stop_utime": 1773154640.331807
+      }
+    ],
+    "stable_time_sec": 123.46024894714355,
+    "start_time": "2026-03-10T14:55:16.871558",
+    "start_utime": 1773154516.871558,
+    "stop_time": "2026-03-10T14:57:20.331807",
+    "stop_utime": 1773154640.331807
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [
+      {
+        "reason": "DAQ counter reset ahcaleventreceiver00-EventNumber",
+        "start_time": "2026-03-10T14:57:40.000000",
+        "start_utime": 1773154660.0,
+        "stop_time": "2026-03-10T14:57:41.000000",
+        "stop_utime": 1773154661.0
+      }
+    ],
+    "excluded_time_sec": 1.0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:57:41.000000",
+        "start_utime": 1773154661.0,
+        "stop_time": "2026-03-10T14:59:36.386827",
+        "stop_utime": 1773154776.386827
+      }
+    ],
+    "good_time_sec": 115.38682699203491,
+    "run_number": 22176,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:57:40.730945",
+        "start_utime": 1773154660.730945,
+        "stop_time": "2026-03-10T14:59:36.386827",
+        "stop_utime": 1773154776.386827
+      }
+    ],
+    "stable_time_sec": 115.65588188171387,
+    "start_time": "2026-03-10T14:57:40.730945",
+    "start_utime": 1773154660.730945,
+    "stop_time": "2026-03-10T14:59:36.386827",
+    "stop_utime": 1773154776.386827
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [
+      {
+        "reason": "DAQ counter reset ahcaleventreceiver00-EventNumber",
+        "start_time": "2026-03-10T14:59:49.000000",
+        "start_utime": 1773154789.0,
+        "stop_time": "2026-03-10T14:59:50.000000",
+        "stop_utime": 1773154790.0
+      }
+    ],
+    "excluded_time_sec": 1.0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:59:50.000000",
+        "start_utime": 1773154790.0,
+        "stop_time": "2026-03-10T15:00:19.564709",
+        "stop_utime": 1773154819.564709
+      }
+    ],
+    "good_time_sec": 29.564708948135376,
+    "run_number": 22177,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T14:59:49.354834",
+        "start_utime": 1773154789.354834,
+        "stop_time": "2026-03-10T15:00:19.564709",
+        "stop_utime": 1773154819.564709
+      }
+    ],
+    "stable_time_sec": 30.209874868392944,
+    "start_time": "2026-03-10T14:59:49.354834",
+    "start_utime": 1773154789.354834,
+    "stop_time": "2026-03-10T15:00:19.564709",
+    "stop_utime": 1773154819.564709
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:00:52.637382",
+        "start_utime": 1773154852.637382,
+        "stop_time": "2026-03-10T15:02:28.259379",
+        "stop_utime": 1773154948.259379
+      }
+    ],
+    "good_time_sec": 95.62199687957764,
+    "run_number": 22178,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:00:52.637382",
+        "start_utime": 1773154852.637382,
+        "stop_time": "2026-03-10T15:02:28.259379",
+        "stop_utime": 1773154948.259379
+      }
+    ],
+    "stable_time_sec": 95.62199687957764,
+    "start_time": "2026-03-10T15:00:52.637382",
+    "start_utime": 1773154852.637382,
+    "stop_time": "2026-03-10T15:02:28.259379",
+    "stop_utime": 1773154948.259379
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:03:06.381559",
+        "start_utime": 1773154986.381559,
+        "stop_time": "2026-03-10T15:04:40.284295",
+        "stop_utime": 1773155080.284295
+      }
+    ],
+    "good_time_sec": 93.9027361869812,
+    "run_number": 22179,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:03:06.381559",
+        "start_utime": 1773154986.381559,
+        "stop_time": "2026-03-10T15:04:40.284295",
+        "stop_utime": 1773155080.284295
+      }
+    ],
+    "stable_time_sec": 93.9027361869812,
+    "start_time": "2026-03-10T15:03:06.381559",
+    "start_utime": 1773154986.381559,
+    "stop_time": "2026-03-10T15:04:40.284295",
+    "stop_utime": 1773155080.284295
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:05:29.730101",
+        "start_utime": 1773155129.730101,
+        "stop_time": "2026-03-10T15:07:18.959586",
+        "stop_utime": 1773155238.959586
+      }
+    ],
+    "good_time_sec": 109.22948479652405,
+    "run_number": 22181,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:05:29.730101",
+        "start_utime": 1773155129.730101,
+        "stop_time": "2026-03-10T15:07:18.959586",
+        "stop_utime": 1773155238.959586
+      }
+    ],
+    "stable_time_sec": 109.22948479652405,
+    "start_time": "2026-03-10T15:05:29.730101",
+    "start_utime": 1773155129.730101,
+    "stop_time": "2026-03-10T15:07:18.959586",
+    "stop_utime": 1773155238.959586
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:07:58.624740",
+        "start_utime": 1773155278.62474,
+        "stop_time": "2026-03-10T15:10:41.886358",
+        "stop_utime": 1773155441.886358
+      }
+    ],
+    "good_time_sec": 163.26161813735962,
+    "run_number": 22182,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:07:58.624740",
+        "start_utime": 1773155278.62474,
+        "stop_time": "2026-03-10T15:10:41.886358",
+        "stop_utime": 1773155441.886358
+      }
+    ],
+    "stable_time_sec": 163.26161813735962,
+    "start_time": "2026-03-10T15:07:58.624740",
+    "start_utime": 1773155278.62474,
+    "stop_time": "2026-03-10T15:10:41.886358",
+    "stop_utime": 1773155441.886358
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:11:24.062881",
+        "start_utime": 1773155484.062881,
+        "stop_time": "2026-03-10T15:14:58.308603",
+        "stop_utime": 1773155698.308603
+      }
+    ],
+    "good_time_sec": 214.24572205543518,
+    "run_number": 22184,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:11:24.062881",
+        "start_utime": 1773155484.062881,
+        "stop_time": "2026-03-10T15:14:58.308603",
+        "stop_utime": 1773155698.308603
+      }
+    ],
+    "stable_time_sec": 214.24572205543518,
+    "start_time": "2026-03-10T15:11:24.062881",
+    "start_utime": 1773155484.062881,
+    "stop_time": "2026-03-10T15:14:58.308603",
+    "stop_utime": 1773155698.308603
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [
+      {
+        "reason": "DAQ counter reset ahcaleventreceiver00-EventNumber",
+        "start_time": "2026-03-10T15:15:25.000000",
+        "start_utime": 1773155725.0,
+        "stop_time": "2026-03-10T15:15:26.000000",
+        "stop_utime": 1773155726.0
+      }
+    ],
+    "excluded_time_sec": 1.0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:15:26.000000",
+        "start_utime": 1773155726.0,
+        "stop_time": "2026-03-10T15:18:56.118480",
+        "stop_utime": 1773155936.11848
+      }
+    ],
+    "good_time_sec": 210.1184799671173,
+    "run_number": 22186,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:15:25.233904",
+        "start_utime": 1773155725.233904,
+        "stop_time": "2026-03-10T15:18:56.118480",
+        "stop_utime": 1773155936.11848
+      }
+    ],
+    "stable_time_sec": 210.88457608222961,
+    "start_time": "2026-03-10T15:15:25.233904",
+    "start_utime": 1773155725.233904,
+    "stop_time": "2026-03-10T15:18:56.118480",
+    "stop_utime": 1773155936.11848
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:19:38.053614",
+        "start_utime": 1773155978.053614,
+        "stop_time": "2026-03-10T15:23:50.975874",
+        "stop_utime": 1773156230.975874
+      }
+    ],
+    "good_time_sec": 252.92226004600525,
+    "run_number": 22188,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:19:38.053614",
+        "start_utime": 1773155978.053614,
+        "stop_time": "2026-03-10T15:23:50.975874",
+        "stop_utime": 1773156230.975874
+      }
+    ],
+    "stable_time_sec": 252.92226004600525,
+    "start_time": "2026-03-10T15:19:38.053614",
+    "start_utime": 1773155978.053614,
+    "stop_time": "2026-03-10T15:23:50.975874",
+    "stop_utime": 1773156230.975874
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:25:27.223248",
+        "start_utime": 1773156327.223248,
+        "stop_time": "2026-03-10T15:30:57.176122",
+        "stop_utime": 1773156657.176122
+      }
+    ],
+    "good_time_sec": 329.9528739452362,
+    "run_number": 22190,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:25:27.223248",
+        "start_utime": 1773156327.223248,
+        "stop_time": "2026-03-10T15:30:57.176122",
+        "stop_utime": 1773156657.176122
+      }
+    ],
+    "stable_time_sec": 329.9528739452362,
+    "start_time": "2026-03-10T15:25:27.223248",
+    "start_utime": 1773156327.223248,
+    "stop_time": "2026-03-10T15:30:57.176122",
+    "stop_utime": 1773156657.176122
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:31:49.447425",
+        "start_utime": 1773156709.447425,
+        "stop_time": "2026-03-10T15:45:23.179297",
+        "stop_utime": 1773157523.179297
+      }
+    ],
+    "good_time_sec": 813.7318720817566,
+    "run_number": 22193,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:31:49.447425",
+        "start_utime": 1773156709.447425,
+        "stop_time": "2026-03-10T15:45:23.179297",
+        "stop_utime": 1773157523.179297
+      }
+    ],
+    "stable_time_sec": 813.7318720817566,
+    "start_time": "2026-03-10T15:31:49.447425",
+    "start_utime": 1773156709.447425,
+    "stop_time": "2026-03-10T15:45:23.179297",
+    "stop_utime": 1773157523.179297
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:48:48.313711",
+        "start_utime": 1773157728.313711,
+        "stop_time": "2026-03-11T01:55:59.000000",
+        "stop_utime": 1773194159.0
+      }
+    ],
+    "good_time_sec": 36430.68628907204,
+    "run_number": 22198,
+    "stable_list": [
+      {
+        "lhc_fill": 11481,
+        "start_time": "2026-03-10T15:48:48.313711",
+        "start_utime": 1773157728.313711,
+        "stop_time": "2026-03-11T01:55:59.000000",
+        "stop_utime": 1773194159.0
+      }
+    ],
+    "stable_time_sec": 36430.68628907204,
+    "start_time": "2026-03-10T15:48:48.313711",
+    "start_utime": 1773157728.313711,
+    "stop_time": "2026-03-11T01:57:17.530537",
+    "stop_utime": 1773194237.530537
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11496,
+        "start_time": "2026-03-12T02:59:13.000000",
+        "start_utime": 1773284353.0,
+        "stop_time": "2026-03-12T07:16:33.170614",
+        "stop_utime": 1773299793.170614
+      }
+    ],
+    "good_time_sec": 15440.170614004135,
+    "run_number": 22251,
+    "stable_list": [
+      {
+        "lhc_fill": 11496,
+        "start_time": "2026-03-12T02:59:13.000000",
+        "start_utime": 1773284353.0,
+        "stop_time": "2026-03-12T07:16:33.170614",
+        "stop_utime": 1773299793.170614
+      }
+    ],
+    "stable_time_sec": 15440.170614004135,
+    "start_time": "2026-03-12T02:30:04.284693",
+    "start_utime": 1773282604.284693,
+    "stop_time": "2026-03-12T07:16:33.170614",
+    "stop_utime": 1773299793.170614
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [
+      {
+        "reason": "DAQ counter reset ahcaleventreceiver00-EventNumber",
+        "start_time": "2026-03-12T07:17:51.000000",
+        "start_utime": 1773299871.0,
+        "stop_time": "2026-03-12T07:17:52.000000",
+        "stop_utime": 1773299872.0
+      }
+    ],
+    "excluded_time_sec": 1.0,
+    "good_list": [
+      {
+        "lhc_fill": 11496,
+        "start_time": "2026-03-12T07:17:52.000000",
+        "start_utime": 1773299872.0,
+        "stop_time": "2026-03-12T12:09:51.000000",
+        "stop_utime": 1773317391.0
+      }
+    ],
+    "good_time_sec": 17519.0,
+    "run_number": 22268,
+    "stable_list": [
+      {
+        "lhc_fill": 11496,
+        "start_time": "2026-03-12T07:17:51.472448",
+        "start_utime": 1773299871.472448,
+        "stop_time": "2026-03-12T12:09:51.000000",
+        "stop_utime": 1773317391.0
+      }
+    ],
+    "stable_time_sec": 17519.52755188942,
+    "start_time": "2026-03-12T07:17:51.472448",
+    "start_utime": 1773299871.472448,
+    "stop_time": "2026-03-12T12:16:46.883641",
+    "stop_utime": 1773317806.883641
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11498,
+        "start_time": "2026-03-12T15:02:25.000000",
+        "start_utime": 1773327745.0,
+        "stop_time": "2026-03-12T17:09:47.000000",
+        "stop_utime": 1773335387.0
+      }
+    ],
+    "good_time_sec": 7642.0,
+    "run_number": 22290,
+    "stable_list": [
+      {
+        "lhc_fill": 11498,
+        "start_time": "2026-03-12T15:02:25.000000",
+        "start_utime": 1773327745.0,
+        "stop_time": "2026-03-12T17:09:47.000000",
+        "stop_utime": 1773335387.0
+      }
+    ],
+    "stable_time_sec": 7642.0,
+    "start_time": "2026-03-12T13:22:51.214049",
+    "start_utime": 1773321771.214049,
+    "stop_time": "2026-03-12T17:12:08.516870",
+    "stop_utime": 1773335528.51687
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11500,
+        "start_time": "2026-03-12T20:32:25.000000",
+        "start_utime": 1773347545.0,
+        "stop_time": "2026-03-12T21:22:05.219656",
+        "stop_utime": 1773350525.219656
+      }
+    ],
+    "good_time_sec": 2980.2196559906006,
+    "run_number": 22294,
+    "stable_list": [
+      {
+        "lhc_fill": 11500,
+        "start_time": "2026-03-12T20:32:25.000000",
+        "start_utime": 1773347545.0,
+        "stop_time": "2026-03-12T21:22:05.219656",
+        "stop_utime": 1773350525.219656
+      }
+    ],
+    "stable_time_sec": 2980.2196559906006,
+    "start_time": "2026-03-12T18:51:21.678459",
+    "start_utime": 1773341481.678459,
+    "stop_time": "2026-03-12T21:22:05.219656",
+    "stop_utime": 1773350525.219656
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11500,
+        "start_time": "2026-03-12T21:25:19.375766",
+        "start_utime": 1773350719.375766,
+        "stop_time": "2026-03-13T00:12:01.000000",
+        "stop_utime": 1773360721.0
+      }
+    ],
+    "good_time_sec": 10001.624233961105,
+    "run_number": 22296,
+    "stable_list": [
+      {
+        "lhc_fill": 11500,
+        "start_time": "2026-03-12T21:25:19.375766",
+        "start_utime": 1773350719.375766,
+        "stop_time": "2026-03-13T00:12:01.000000",
+        "stop_utime": 1773360721.0
+      }
+    ],
+    "stable_time_sec": 10001.624233961105,
+    "start_time": "2026-03-12T21:25:19.375766",
+    "start_utime": 1773350719.375766,
+    "stop_time": "2026-03-13T00:14:55.892665",
+    "stop_utime": 1773360895.892665
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11501,
+        "start_time": "2026-03-13T02:00:44.000000",
+        "start_utime": 1773367244.0,
+        "stop_time": "2026-03-13T11:02:25.000000",
+        "stop_utime": 1773399745.0
+      }
+    ],
+    "good_time_sec": 32501.0,
+    "run_number": 22298,
+    "stable_list": [
+      {
+        "lhc_fill": 11501,
+        "start_time": "2026-03-13T02:00:44.000000",
+        "start_utime": 1773367244.0,
+        "stop_time": "2026-03-13T11:02:25.000000",
+        "stop_utime": 1773399745.0
+      }
+    ],
+    "stable_time_sec": 32501.0,
+    "start_time": "2026-03-13T00:15:05.274448",
+    "start_utime": 1773360905.274448,
+    "stop_time": "2026-03-13T11:03:49.945928",
+    "stop_utime": 1773399829.945928
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11505,
+        "start_time": "2026-03-13T17:08:22.000000",
+        "start_utime": 1773421702.0,
+        "stop_time": "2026-03-13T23:57:57.000000",
+        "stop_utime": 1773446277.0
+      }
+    ],
+    "good_time_sec": 24575.0,
+    "run_number": 22306,
+    "stable_list": [
+      {
+        "lhc_fill": 11505,
+        "start_time": "2026-03-13T17:08:22.000000",
+        "start_utime": 1773421702.0,
+        "stop_time": "2026-03-13T23:57:57.000000",
+        "stop_utime": 1773446277.0
+      }
+    ],
+    "stable_time_sec": 24575.0,
+    "start_time": "2026-03-13T16:01:33.052309",
+    "start_utime": 1773417693.052309,
+    "stop_time": "2026-03-14T00:02:59.859347",
+    "stop_utime": 1773446579.859347
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11506,
+        "start_time": "2026-03-14T01:46:02.000000",
+        "start_utime": 1773452762.0,
+        "stop_time": "2026-03-14T04:13:11.000000",
+        "stop_utime": 1773461591.0
+      }
+    ],
+    "good_time_sec": 8829.0,
+    "run_number": 22308,
+    "stable_list": [
+      {
+        "lhc_fill": 11506,
+        "start_time": "2026-03-14T01:46:02.000000",
+        "start_utime": 1773452762.0,
+        "stop_time": "2026-03-14T04:13:11.000000",
+        "stop_utime": 1773461591.0
+      }
+    ],
+    "stable_time_sec": 8829.0,
+    "start_time": "2026-03-14T00:03:10.897611",
+    "start_utime": 1773446590.897611,
+    "stop_time": "2026-03-14T04:16:53.936058",
+    "stop_utime": 1773461813.936058
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11508,
+        "start_time": "2026-03-14T06:31:25.000000",
+        "start_utime": 1773469885.0,
+        "stop_time": "2026-03-14T07:25:06.768428",
+        "stop_utime": 1773473106.768428
+      }
+    ],
+    "good_time_sec": 3221.7684280872345,
+    "run_number": 22312,
+    "stable_list": [
+      {
+        "lhc_fill": 11508,
+        "start_time": "2026-03-14T06:31:25.000000",
+        "start_utime": 1773469885.0,
+        "stop_time": "2026-03-14T07:25:06.768428",
+        "stop_utime": 1773473106.768428
+      }
+    ],
+    "stable_time_sec": 3221.7684280872345,
+    "start_time": "2026-03-14T05:27:12.442727",
+    "start_utime": 1773466032.442727,
+    "stop_time": "2026-03-14T07:25:06.768428",
+    "stop_utime": 1773473106.768428
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11508,
+        "start_time": "2026-03-14T07:26:06.715689",
+        "start_utime": 1773473166.715689,
+        "stop_time": "2026-03-14T14:54:23.000000",
+        "stop_utime": 1773500063.0
+      }
+    ],
+    "good_time_sec": 26896.284311056137,
+    "run_number": 22313,
+    "stable_list": [
+      {
+        "lhc_fill": 11508,
+        "start_time": "2026-03-14T07:26:06.715689",
+        "start_utime": 1773473166.715689,
+        "stop_time": "2026-03-14T14:54:23.000000",
+        "stop_utime": 1773500063.0
+      }
+    ],
+    "stable_time_sec": 26896.284311056137,
+    "start_time": "2026-03-14T07:26:06.715689",
+    "start_utime": 1773473166.715689,
+    "stop_time": "2026-03-14T15:05:00.806412",
+    "stop_utime": 1773500700.806412
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11510,
+        "start_time": "2026-03-14T18:01:14.000000",
+        "start_utime": 1773511274.0,
+        "stop_time": "2026-03-14T18:18:52.000000",
+        "stop_utime": 1773512332.0
+      }
+    ],
+    "good_time_sec": 1058.0,
+    "run_number": 22319,
+    "stable_list": [
+      {
+        "lhc_fill": 11510,
+        "start_time": "2026-03-14T18:01:14.000000",
+        "start_utime": 1773511274.0,
+        "stop_time": "2026-03-14T18:18:52.000000",
+        "stop_utime": 1773512332.0
+      }
+    ],
+    "stable_time_sec": 1058.0,
+    "start_time": "2026-03-14T16:30:22.937856",
+    "start_utime": 1773505822.937856,
+    "stop_time": "2026-03-14T18:30:50.304437",
+    "stop_utime": 1773513050.304437
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11511,
+        "start_time": "2026-03-14T22:04:56.000000",
+        "start_utime": 1773525896.0,
+        "stop_time": "2026-03-15T08:29:56.000000",
+        "stop_utime": 1773563396.0
+      }
+    ],
+    "good_time_sec": 37500.0,
+    "run_number": 22321,
+    "stable_list": [
+      {
+        "lhc_fill": 11511,
+        "start_time": "2026-03-14T22:04:56.000000",
+        "start_utime": 1773525896.0,
+        "stop_time": "2026-03-15T08:29:56.000000",
+        "stop_utime": 1773563396.0
+      }
+    ],
+    "stable_time_sec": 37500.0,
+    "start_time": "2026-03-14T18:30:57.717418",
+    "start_utime": 1773513057.717418,
+    "stop_time": "2026-03-15T08:32:47.588180",
+    "stop_utime": 1773563567.58818
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11512,
+        "start_time": "2026-03-15T10:31:25.000000",
+        "start_utime": 1773570685.0,
+        "stop_time": "2026-03-15T12:21:05.000000",
+        "stop_utime": 1773577265.0
+      }
+    ],
+    "good_time_sec": 6580.0,
+    "run_number": 22323,
+    "stable_list": [
+      {
+        "lhc_fill": 11512,
+        "start_time": "2026-03-15T10:31:25.000000",
+        "start_utime": 1773570685.0,
+        "stop_time": "2026-03-15T12:21:05.000000",
+        "stop_utime": 1773577265.0
+      }
+    ],
+    "stable_time_sec": 6580.0,
+    "start_time": "2026-03-15T08:32:58.730845",
+    "start_utime": 1773563578.730845,
+    "stop_time": "2026-03-15T12:36:36.188540",
+    "stop_utime": 1773578196.18854
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11513,
+        "start_time": "2026-03-15T14:44:26.000000",
+        "start_utime": 1773585866.0,
+        "stop_time": "2026-03-15T16:25:24.933792",
+        "stop_utime": 1773591924.933792
+      }
+    ],
+    "good_time_sec": 6058.933792114258,
+    "run_number": 22326,
+    "stable_list": [
+      {
+        "lhc_fill": 11513,
+        "start_time": "2026-03-15T14:44:26.000000",
+        "start_utime": 1773585866.0,
+        "stop_time": "2026-03-15T16:25:24.933792",
+        "stop_utime": 1773591924.933792
+      }
+    ],
+    "stable_time_sec": 6058.933792114258,
+    "start_time": "2026-03-15T12:49:20.423649",
+    "start_utime": 1773578960.423649,
+    "stop_time": "2026-03-15T16:25:24.933792",
+    "stop_utime": 1773591924.933792
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11513,
+        "start_time": "2026-03-15T16:27:29.680681",
+        "start_utime": 1773592049.680681,
+        "stop_time": "2026-03-15T16:32:51.991544",
+        "stop_utime": 1773592371.991544
+      }
+    ],
+    "good_time_sec": 322.3108630180359,
+    "run_number": 22327,
+    "stable_list": [
+      {
+        "lhc_fill": 11513,
+        "start_time": "2026-03-15T16:27:29.680681",
+        "start_utime": 1773592049.680681,
+        "stop_time": "2026-03-15T16:32:51.991544",
+        "stop_utime": 1773592371.991544
+      }
+    ],
+    "stable_time_sec": 322.3108630180359,
+    "start_time": "2026-03-15T16:27:29.680681",
+    "start_utime": 1773592049.680681,
+    "stop_time": "2026-03-15T16:32:51.991544",
+    "stop_utime": 1773592371.991544
+  },
+  {
+    "configuration": "AHCALPhysics_NoVeto",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11513,
+        "start_time": "2026-03-15T16:33:35.731720",
+        "start_utime": 1773592415.73172,
+        "stop_time": "2026-03-15T16:40:02.000000",
+        "stop_utime": 1773592802.0
+      }
+    ],
+    "good_time_sec": 386.2682800292969,
+    "run_number": 22328,
+    "stable_list": [
+      {
+        "lhc_fill": 11513,
+        "start_time": "2026-03-15T16:33:35.731720",
+        "start_utime": 1773592415.73172,
+        "stop_time": "2026-03-15T16:40:02.000000",
+        "stop_utime": 1773592802.0
+      }
+    ],
+    "stable_time_sec": 386.2682800292969,
+    "start_time": "2026-03-15T16:33:35.731720",
+    "start_utime": 1773592415.73172,
+    "stop_time": "2026-03-15T16:45:38.028173",
+    "stop_utime": 1773593138.028173
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11514,
+        "start_time": "2026-03-15T18:43:57.000000",
+        "start_utime": 1773600237.0,
+        "stop_time": "2026-03-16T00:10:44.000000",
+        "stop_utime": 1773619844.0
+      }
+    ],
+    "good_time_sec": 19607.0,
+    "run_number": 22331,
+    "stable_list": [
+      {
+        "lhc_fill": 11514,
+        "start_time": "2026-03-15T18:43:57.000000",
+        "start_utime": 1773600237.0,
+        "stop_time": "2026-03-16T00:10:44.000000",
+        "stop_utime": 1773619844.0
+      }
+    ],
+    "stable_time_sec": 19607.0,
+    "start_time": "2026-03-15T17:09:20.582508",
+    "start_utime": 1773594560.582508,
+    "stop_time": "2026-03-16T00:16:18.557489",
+    "stop_utime": 1773620178.557489
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11515,
+        "start_time": "2026-03-16T02:00:21.000000",
+        "start_utime": 1773626421.0,
+        "stop_time": "2026-03-16T02:57:20.000000",
+        "stop_utime": 1773629840.0
+      }
+    ],
+    "good_time_sec": 3419.0,
+    "run_number": 22333,
+    "stable_list": [
+      {
+        "lhc_fill": 11515,
+        "start_time": "2026-03-16T02:00:21.000000",
+        "start_utime": 1773626421.0,
+        "stop_time": "2026-03-16T02:57:20.000000",
+        "stop_utime": 1773629840.0
+      }
+    ],
+    "stable_time_sec": 3419.0,
+    "start_time": "2026-03-16T00:16:26.708480",
+    "start_utime": 1773620186.70848,
+    "stop_time": "2026-03-16T03:04:20.200970",
+    "stop_utime": 1773630260.20097
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11521,
+        "start_time": "2026-03-16T19:41:30.000000",
+        "start_utime": 1773690090.0,
+        "stop_time": "2026-03-16T23:54:54.000000",
+        "stop_utime": 1773705294.0
+      }
+    ],
+    "good_time_sec": 15204.0,
+    "run_number": 22344,
+    "stable_list": [
+      {
+        "lhc_fill": 11521,
+        "start_time": "2026-03-16T19:41:30.000000",
+        "start_utime": 1773690090.0,
+        "stop_time": "2026-03-16T23:54:54.000000",
+        "stop_utime": 1773705294.0
+      }
+    ],
+    "stable_time_sec": 15204.0,
+    "start_time": "2026-03-16T13:46:30.675512",
+    "start_utime": 1773668790.675512,
+    "stop_time": "2026-03-17T01:04:24.071415",
+    "stop_utime": 1773709464.071415
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11523,
+        "start_time": "2026-03-17T03:41:03.000000",
+        "start_utime": 1773718863.0,
+        "stop_time": "2026-03-17T16:28:17.000000",
+        "stop_utime": 1773764897.0
+      },
+      {
+        "lhc_fill": 11524,
+        "start_time": "2026-03-17T18:55:15.000000",
+        "start_utime": 1773773715.0,
+        "stop_time": "2026-03-18T08:11:13.000000",
+        "stop_utime": 1773821473.0
+      }
+    ],
+    "good_time_sec": 93792.0,
+    "run_number": 22347,
+    "stable_list": [
+      {
+        "lhc_fill": 11523,
+        "start_time": "2026-03-17T03:41:03.000000",
+        "start_utime": 1773718863.0,
+        "stop_time": "2026-03-17T16:28:17.000000",
+        "stop_utime": 1773764897.0
+      },
+      {
+        "lhc_fill": 11524,
+        "start_time": "2026-03-17T18:55:15.000000",
+        "start_utime": 1773773715.0,
+        "stop_time": "2026-03-18T08:11:13.000000",
+        "stop_utime": 1773821473.0
+      }
+    ],
+    "stable_time_sec": 93792.0,
+    "start_time": "2026-03-17T01:18:08.360679",
+    "start_utime": 1773710288.360679,
+    "stop_time": "2026-03-18T08:21:33.330122",
+    "stop_utime": 1773822093.330122
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11526,
+        "start_time": "2026-03-18T13:08:29.000000",
+        "start_utime": 1773839309.0,
+        "stop_time": "2026-03-19T03:09:13.000000",
+        "stop_utime": 1773889753.0
+      }
+    ],
+    "good_time_sec": 50444.0,
+    "run_number": 22356,
+    "stable_list": [
+      {
+        "lhc_fill": 11526,
+        "start_time": "2026-03-18T13:08:29.000000",
+        "start_utime": 1773839309.0,
+        "stop_time": "2026-03-19T03:09:13.000000",
+        "stop_utime": 1773889753.0
+      }
+    ],
+    "stable_time_sec": 50444.0,
+    "start_time": "2026-03-18T12:41:09.944051",
+    "start_utime": 1773837669.944051,
+    "stop_time": "2026-03-19T03:13:20.382476",
+    "stop_utime": 1773890000.382476
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11529,
+        "start_time": "2026-03-19T06:59:29.000000",
+        "start_utime": 1773903569.0,
+        "stop_time": "2026-03-19T09:34:07.000000",
+        "stop_utime": 1773912847.0
+      }
+    ],
+    "good_time_sec": 9278.0,
+    "run_number": 22362,
+    "stable_list": [
+      {
+        "lhc_fill": 11529,
+        "start_time": "2026-03-19T06:59:29.000000",
+        "start_utime": 1773903569.0,
+        "stop_time": "2026-03-19T09:34:07.000000",
+        "stop_utime": 1773912847.0
+      }
+    ],
+    "stable_time_sec": 9278.0,
+    "start_time": "2026-03-19T05:48:04.073558",
+    "start_utime": 1773899284.073558,
+    "stop_time": "2026-03-19T09:39:00.900810",
+    "stop_utime": 1773913140.90081
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11532,
+        "start_time": "2026-03-19T16:26:07.000000",
+        "start_utime": 1773937567.0,
+        "stop_time": "2026-03-20T05:03:39.000000",
+        "stop_utime": 1773983019.0
+      }
+    ],
+    "good_time_sec": 45452.0,
+    "run_number": 22380,
+    "stable_list": [
+      {
+        "lhc_fill": 11532,
+        "start_time": "2026-03-19T16:26:07.000000",
+        "start_utime": 1773937567.0,
+        "stop_time": "2026-03-20T05:03:39.000000",
+        "stop_utime": 1773983019.0
+      }
+    ],
+    "stable_time_sec": 45452.0,
+    "start_time": "2026-03-19T14:05:13.578094",
+    "start_utime": 1773929113.578094,
+    "stop_time": "2026-03-20T07:27:46.433139",
+    "stop_utime": 1773991666.433139
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11534,
+        "start_time": "2026-03-20T15:35:30.000000",
+        "start_utime": 1774020930.0,
+        "stop_time": "2026-03-21T06:23:25.000000",
+        "stop_utime": 1774074205.0
+      }
+    ],
+    "good_time_sec": 53275.0,
+    "run_number": 22385,
+    "stable_list": [
+      {
+        "lhc_fill": 11534,
+        "start_time": "2026-03-20T15:35:30.000000",
+        "start_utime": 1774020930.0,
+        "stop_time": "2026-03-21T06:23:25.000000",
+        "stop_utime": 1774074205.0
+      }
+    ],
+    "stable_time_sec": 53275.0,
+    "start_time": "2026-03-20T09:28:24.583774",
+    "start_utime": 1773998904.583774,
+    "stop_time": "2026-03-21T06:30:31.009448",
+    "stop_utime": 1774074631.009448
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11535,
+        "start_time": "2026-03-21T09:58:31.000000",
+        "start_utime": 1774087111.0,
+        "stop_time": "2026-03-21T10:18:49.000000",
+        "stop_utime": 1774088329.0
+      }
+    ],
+    "good_time_sec": 1218.0,
+    "run_number": 22388,
+    "stable_list": [
+      {
+        "lhc_fill": 11535,
+        "start_time": "2026-03-21T09:58:31.000000",
+        "start_utime": 1774087111.0,
+        "stop_time": "2026-03-21T10:18:49.000000",
+        "stop_utime": 1774088329.0
+      }
+    ],
+    "stable_time_sec": 1218.0,
+    "start_time": "2026-03-21T06:41:25.229131",
+    "start_utime": 1774075285.229131,
+    "stop_time": "2026-03-21T14:52:17.741652",
+    "stop_utime": 1774104737.741652
+  },
+  {
+    "configuration": "AHCALPhysics_Veto_PreScale",
+    "excluded_list": [],
+    "excluded_time_sec": 0,
+    "good_list": [
+      {
+        "lhc_fill": 11539,
+        "start_time": "2026-03-22T00:43:45.000000",
+        "start_utime": 1774140225.0,
+        "stop_time": "2026-03-22T14:48:53.000000",
+        "stop_utime": 1774190933.0
+      }
+    ],
+    "good_time_sec": 50708.0,
+    "run_number": 22400,
+    "stable_list": [
+      {
+        "lhc_fill": 11539,
+        "start_time": "2026-03-22T00:43:45.000000",
+        "start_utime": 1774140225.0,
+        "stop_time": "2026-03-22T14:48:53.000000",
+        "stop_utime": 1774190933.0
+      }
+    ],
+    "stable_time_sec": 50708.0,
+    "start_time": "2026-03-21T23:14:47.291961",
+    "start_utime": 1774134887.291961,
+    "stop_time": "2026-03-22T14:53:49.688238",
+    "stop_utime": 1774191229.688238
+  }
+]
