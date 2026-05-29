@@ -10,6 +10,10 @@ from secrets import replace_environment_variables
 from time_utils import parse_influx_time, to_iso_utc
 
 
+def is_reset_checked_measurement(measurement):
+    return measurement == "EventNumber" or measurement.endswith("-EventNumber")
+
+
 def influx_interval(seconds):
     if seconds <= 0:
         raise ValueError("InfluxDB bin size must be positive")
@@ -200,7 +204,7 @@ class DAQConditionReader:
                         f"DAQ counter gap {measurement}",
                     )
                 )
-            if value < previous_value:
+            if is_reset_checked_measurement(measurement) and value < previous_value:
                 excluded.append(
                     interval_entry(
                         previous_time,
