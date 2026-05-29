@@ -11,7 +11,7 @@ The output JSON adds the following fields to each run.
 - `good_list`: `stable_list - excluded_list`.
 - `stable_time_sec`, `excluded_time_sec`, `good_time_sec`: time summaries in seconds.
 
-# Environment Setup
+## Environment Setup
 These scripts need to access the ATLAS COOL DB, so
 
 ```bash
