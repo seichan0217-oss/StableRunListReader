@@ -87,8 +87,10 @@ Missing ATLAS luminosity
 
 By default, the recommended accounting folder/tag is used:
 ```bash
---lumi-acct-tag OflLumiAcct-Run3-008
+lumi-acct-tag OflLumiAcct-Run3-008
 ```
+
+For more details, see [https://lpc.web.cern.ch/cgi-bin/getMassiAnnotations.py]
 
 ## Output JSON
 Example output entry:
