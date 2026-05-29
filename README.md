@@ -116,7 +116,7 @@ Example output entry:
 There are two DAQ filters in `daq_conditions.py`.
 
 1. **Missing DAQ counter**: there is no valid  counter value in the stable interval.
-2. **DAQ counter gap**: the DAQ counter has a time gap larger than `--daq-max-gap-seconds`.
+2. **DAQ counter gap**: the DAQ counter has a time gap larger than `--daq-max-gap-seconds`, default parameter = 10sec, set by stable_runlist_reader.py.
 
 The exclusion reasons are written as:
 ```text
