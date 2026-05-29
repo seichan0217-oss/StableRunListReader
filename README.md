@@ -60,6 +60,26 @@ The input is a JSON list. Each entry must contain at least:
 
 `run_number`, `start_time`, and `stop_time` are required.
 `configuration` is used for run-configuration filtering and exclusions.
+## Output JSON
+Example output entry:
+
+```json
+{
+  "configuration": "AHCALPhysics_NoVeto",
+  "run_number": 22127,
+  "start_time": "2026-03-07T14:56:08.000000",
+  "stop_time": "2026-03-07T21:29:42.000000",
+  "start_utime": 1772895368.0,
+  "stop_utime": 1772918982.0,
+  "stable_list": [{"start_utime": 1772895482.0, "stop_utime": 1772918943.0}],
+  "excluded_list": [],
+  "good_list": [{"start_utime": 1772895482.0, "stop_utime": 1772918943.0}],
+  "stable_time_sec": 23461.0,
+  "excluded_time_sec": 0.0,
+  "good_time_sec": 23461.0
+}
+```
+
 
 ## Stable List Condition
 
@@ -92,25 +112,6 @@ lumi-acct-tag OflLumiAcct-Run3-008
 
 For more details, see [https://lpc.web.cern.ch/cgi-bin/getMassiAnnotations.py]
 
-## Output JSON
-Example output entry:
-
-```json
-{
-  "configuration": "AHCALPhysics_NoVeto",
-  "run_number": 22127,
-  "start_time": "2026-03-07T14:56:08.000000",
-  "stop_time": "2026-03-07T21:29:42.000000",
-  "start_utime": 1772895368.0,
-  "stop_utime": 1772918982.0,
-  "stable_list": [{"start_utime": 1772895482.0, "stop_utime": 1772918943.0}],
-  "excluded_list": [],
-  "good_list": [{"start_utime": 1772895482.0, "stop_utime": 1772918943.0}],
-  "stable_time_sec": 23461.0,
-  "excluded_time_sec": 0.0,
-  "good_time_sec": 23461.0
-}
-```
 
 ## DAQ Condition
 There are two DAQ filters in `daq_conditions.py`.
