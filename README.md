@@ -53,6 +53,37 @@ cd /path/to/your/StableRunListReader
 
 For more details, see [https://lpc.web.cern.ch/cgi-bin/getMassiAnnotations.py]
 
+## Main Command-Line Options
+
+Input and output:
+
+- `-i, --input PATH`: input run-time JSON. The default is `ahcal_run_times.json`.
+- `-o, --output PATH`: output JSON. If omitted, the input file is overwritten.
+- `--db PATH`: LHC BeamData COOL sqlite DB. The default is the current FASER DBRelease under `/cvmfs/faser.cern.ch`.
+- `-v, --verbose`: print extra diagnostic messages while reading conditions.
+
+Run-configuration filters:
+
+- `--run-config-filter-regex REGEX`: only process runs whose `configuration` matches this regex. The default is empty, which disables this pre-filter.
+- `--allowed-config-regex REGEX`: configurations not matching this regex are excluded from `good_list` over the stable-beam interval. The default is `AHCALPhysics`.
+- `--physics-config-regex REGEX`: alias for `--allowed-config-regex`.
+
+Luminosity checks:
+
+- `--lumi-acct-tag TAG`: ATLAS luminosity accounting tag used with `/TRIGGER/OFLLUMI/LumiAccounting`. The default is `OflLumiAcct-Run3-008`.
+- `--lumi-tag TAG`: ATLAS offline luminosity tag used when checking `OflPrefLumi/LBTIME`. The default is `OflLumi-Run3-008`.
+- `--no-lumi`: skip the ATLAS luminosity coverage check.
+
+DAQ/InfluxDB checks:
+
+- `--no-daq`: skip the DAQ counter checks.
+- `--secret-file PATH`: JSON file with InfluxDB credentials. The default is `faser-secret.json`.
+- `--influx-host HOST`, `--influx-port PORT`, `--influx-user USER`, `--influx-password PASSWORD`, `--influx-database NAME`: override the InfluxDB connection settings.
+- `--influx-no-verify`: disable HTTPS certificate verification for InfluxDB.
+- `--daq-bin-seconds SECONDS`: InfluxDB query bin size. The default is `1.0`.
+- `--daq-max-gap-seconds SECONDS`: DAQ counter gaps larger than this are excluded. The default is `30.0`.
+- `--required-measurement NAME`: require this InfluxDB counter measurement during stable beams. This option can be repeated. If it is used, the default `ahcaleventreceiver00-EventNumber` measurement is not added automatically.
+
 ## Input JSON
 The input is a JSON list. Each entry must contain at least:
 
