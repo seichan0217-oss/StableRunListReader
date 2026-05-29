@@ -21,5 +21,5 @@ def load_runs(path):
 
 def write_runs(path, runs):
     with path.open("w", encoding="utf-8") as output_file:
-        json.dump(runs, output_file, indent=2, sort_keys=True)
+        json.dump(runs, output_file, indent=2)
         output_file.write("\n")

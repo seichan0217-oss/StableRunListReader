@@ -127,22 +127,38 @@ class StableRunListReader:
             excluded_list.extend(self.daq_reader.excluded_intervals(stable_list))
         excluded_list = merge_intervals(excluded_list)
 
-        output_run = dict(run)
-        output_run.pop("RunNumber", None)
+        good_list = subtract_intervals(stable_list, excluded_list)
+        stable_time_sec = sum(
+            item["stop_utime"] - item["start_utime"] for item in stable_list
+        )
+        excluded_time_sec = sum(
+            item["stop_utime"] - item["start_utime"] for item in excluded_list
+        )
+        good_time_sec = sum(
+            item["stop_utime"] - item["start_utime"] for item in good_list
+        )
+
+        output_run = {"run_number": run_number}
+        for key, value in run.items():
+            if key not in (
+                "RunNumber",
+                "run_number",
+                "stable_list",
+                "excluded_list",
+                "good_list",
+                "stable_time_sec",
+                "excluded_time_sec",
+                "good_time_sec",
+            ):
+                output_run[key] = value
         output_run["start_utime"] = since
         output_run["stop_utime"] = until
         output_run["stable_list"] = stable_list
         output_run["excluded_list"] = excluded_list
-        output_run["good_list"] = subtract_intervals(stable_list, excluded_list)
-        output_run["stable_time_sec"] = sum(
-            item["stop_utime"] - item["start_utime"] for item in stable_list
-        )
-        output_run["excluded_time_sec"] = sum(
-            item["stop_utime"] - item["start_utime"] for item in excluded_list
-        )
-        output_run["good_time_sec"] = sum(
-            item["stop_utime"] - item["start_utime"] for item in output_run["good_list"]
-        )
+        output_run["good_list"] = good_list
+        output_run["stable_time_sec"] = stable_time_sec
+        output_run["excluded_time_sec"] = excluded_time_sec
+        output_run["good_time_sec"] = good_time_sec
         return output_run
 
     @staticmethod

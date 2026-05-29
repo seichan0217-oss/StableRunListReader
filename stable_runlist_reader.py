@@ -77,7 +77,7 @@ def parse_args():
     parser.add_argument("--daq-bin-seconds", default=1.0, type=float)
     parser.add_argument(
         "--daq-max-gap-seconds",
-        default=30.0,
+        default=10.0,
         type=float,
         help="DAQ counter gaps larger than this are excluded",
     )
