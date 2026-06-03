@@ -80,8 +80,8 @@ DAQ/InfluxDB checks:
 - `--secret-file PATH`: JSON file with InfluxDB credentials. The default is `faser-secret.json`.
 - `--influx-host HOST`, `--influx-port PORT`, `--influx-user USER`, `--influx-password PASSWORD`, `--influx-database NAME`: override the InfluxDB connection settings.
 - `--influx-no-verify`: disable HTTPS certificate verification for InfluxDB.
-- `--daq-bin-seconds SECONDS`: InfluxDB query bin size. The default is `1.0`.
-- `--daq-max-gap-seconds SECONDS`: DAQ counter gaps larger than this are excluded. The default is `30.0`.
+- `--daq-bin-seconds SECONDS`: InfluxDB query bin size. The default is set in `config.py`.
+- `--daq-max-gap-seconds SECONDS`: DAQ counter gaps larger than this are excluded. The default is set in `config.py`.
 - `--required-measurement NAME`: require this InfluxDB counter measurement during stable beams. This option can be repeated. If it is used, the default `ahcaleventreceiver00-EventNumber` measurement is not added automatically.
 
 ## Input JSON

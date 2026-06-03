@@ -5,6 +5,8 @@ import argparse
 import sys
 
 from config import (
+    DEFAULT_DAQ_BIN_SECONDS,
+    DEFAULT_DAQ_MAX_GAP_SECONDS,
     DEFAULT_DB,
     DEFAULT_INFLUX_DATABASE,
     DEFAULT_INFLUX_HOST,
@@ -74,10 +76,10 @@ def parse_args():
         help="disable HTTPS certificate verification for InfluxDB",
     )
     parser.add_argument("--secret-file", default=DEFAULT_SECRET_FILE)
-    parser.add_argument("--daq-bin-seconds", default=1.0, type=float)
+    parser.add_argument("--daq-bin-seconds", default=DEFAULT_DAQ_BIN_SECONDS, type=float)
     parser.add_argument(
         "--daq-max-gap-seconds",
-        default=10.0,
+        default=DEFAULT_DAQ_MAX_GAP_SECONDS,
         type=float,
         help="DAQ counter gaps larger than this are excluded",
     )
