@@ -53,6 +53,7 @@ cd /path/to/your/StableRunListReader
 
 For more details, see [https://lpc.web.cern.ch/cgi-bin/getMassiAnnotations.py]
 
+
 ## Input JSON
 The input is a JSON list. Each entry must contain at least:
 
