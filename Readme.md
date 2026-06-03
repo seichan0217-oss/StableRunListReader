@@ -53,37 +53,6 @@ cd /path/to/your/StableRunListReader
 
 For more details, see [https://lpc.web.cern.ch/cgi-bin/getMassiAnnotations.py]
 
-## Main Command-Line Options
-
-Input and output:
-
-- `-i, --input PATH`: input run-time JSON. The default is `ahcal_run_times.json`.
-- `-o, --output PATH`: output JSON. If omitted, the input file is overwritten.
-- `--db PATH`: LHC BeamData COOL sqlite DB. The default is the current FASER DBRelease under `/cvmfs/faser.cern.ch`.
-- `-v, --verbose`: print extra diagnostic messages while reading conditions.
-
-Run-configuration filters:
-
-- `--run-config-filter-regex REGEX`: only process runs whose `configuration` matches this regex. The default is empty, which disables this pre-filter.
-- `--allowed-config-regex REGEX`: configurations not matching this regex are excluded from `good_list` over the stable-beam interval. The default is `AHCALPhysics`.
-- `--physics-config-regex REGEX`: alias for `--allowed-config-regex`.
-
-Luminosity checks:
-
-- `--lumi-acct-tag TAG`: ATLAS luminosity accounting tag used with `/TRIGGER/OFLLUMI/LumiAccounting`. The default is `OflLumiAcct-Run3-008`.
-- `--lumi-tag TAG`: ATLAS offline luminosity tag used when checking `OflPrefLumi/LBTIME`. The default is `OflLumi-Run3-008`.
-- `--no-lumi`: skip the ATLAS luminosity coverage check.
-
-DAQ/InfluxDB checks:
-
-- `--no-daq`: skip the DAQ counter checks.
-- `--secret-file PATH`: JSON file with InfluxDB credentials. The default is `faser-secret.json`.
-- `--influx-host HOST`, `--influx-port PORT`, `--influx-user USER`, `--influx-password PASSWORD`, `--influx-database NAME`: override the InfluxDB connection settings.
-- `--influx-no-verify`: disable HTTPS certificate verification for InfluxDB.
-- `--daq-bin-seconds SECONDS`: InfluxDB query bin size. The default is set in `config.py`.
-- `--daq-max-gap-seconds SECONDS`: DAQ counter gaps larger than this are excluded. The default is set in `config.py`.
-- `--required-measurement NAME`: require this InfluxDB counter measurement during stable beams. This option can be repeated. If it is used, the default `ahcaleventreceiver00-EventNumber` measurement is not added automatically.
-
 ## Input JSON
 The input is a JSON list. Each entry must contain at least:
 
@@ -98,6 +67,26 @@ The input is a JSON list. Each entry must contain at least:
 
 `run_number`, `start_time`, and `stop_time` are required.
 `configuration` is used for run-configuration filtering and exclusions.
+
+## Output JSON
+Example output entry:
+
+```json
+{
+  "configuration": "AHCALPhysics_NoVeto",
+  "run_number": 22127,
+  "start_time": "2026-03-07T14:56:08.000000",
+  "stop_time": "2026-03-07T21:29:42.000000",
+  "start_utime": 1772895368.0,
+  "stop_utime": 1772918982.0,
+  "stable_list": [{"start_utime": 1772895482.0, "stop_utime": 1772918943.0}],
+  "excluded_list": [],
+  "good_list": [{"start_utime": 1772895482.0, "stop_utime": 1772918943.0}],
+  "stable_time_sec": 23461.0,
+  "excluded_time_sec": 0.0,
+  "good_time_sec": 23461.0
+}
+```
 
 ## Stable List Condition
 `stable_list` is the base interval list used to calculate AHCAL good time.
@@ -130,26 +119,6 @@ By default, the recommended accounting folder/tag is used:
 Disable this check with:
 ```bash
 --no-lumi
-```
-
-## Output JSON
-Example output entry:
-
-```json
-{
-  "configuration": "AHCALPhysics_NoVeto",
-  "run_number": 22127,
-  "start_time": "2026-03-07T14:56:08.000000",
-  "stop_time": "2026-03-07T21:29:42.000000",
-  "start_utime": 1772895368.0,
-  "stop_utime": 1772918982.0,
-  "stable_list": [{"start_utime": 1772895482.0, "stop_utime": 1772918943.0}],
-  "excluded_list": [],
-  "good_list": [{"start_utime": 1772895482.0, "stop_utime": 1772918943.0}],
-  "stable_time_sec": 23461.0,
-  "excluded_time_sec": 0.0,
-  "good_time_sec": 23461.0
-}
 ```
 
 ## DAQ Condition
