@@ -1,4 +1,4 @@
-import config  # noqa: F401 - adds cool-conditions/python to sys.path
+import config  # noqa: F401 - adds StableRunListReader/python to sys.path
 from intervals import interval_entry
 from time_utils import format_time
 

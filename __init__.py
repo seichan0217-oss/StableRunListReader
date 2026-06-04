@@ -8,6 +8,6 @@ PACKAGE_DIR = Path(__file__).resolve().parent
 if str(PACKAGE_DIR) not in sys.path:
     sys.path.insert(0, str(PACKAGE_DIR))
 
-from reader import StableRunListReader
+from stable_runlist_reader import StableRunListReader
 
 __all__ = ["StableRunListReader"]
