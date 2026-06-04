@@ -43,8 +43,6 @@ cd /path/to/your/StableRunListReader
 ./stable_runlist_reader.py \
   -i ahcal_run_times.json \
   -o ahcal_run_times_with_good_intervals.json \
-  --influx-no-verify \
-  --lumi-acct-tag OflLumiAcct-Run3-008
 ```
 
 `--lumi-acct-tag OflLumiAcct-Run3-XXX` is the ATLAS luminosity accounting tag.
