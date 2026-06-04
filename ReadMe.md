@@ -45,11 +45,6 @@ cd /path/to/your/StableRunListReader
   -o ahcal_run_times_with_good_intervals.json \
 ```
 
-`--lumi-acct-tag OflLumiAcct-Run3-XXX` is the ATLAS luminosity accounting tag.
-`OflLumiAcct-Run3-008` is set as the default in `config.py`.
-`OflLumiAcct-Run3-010` was tested, but it did not work 
-
-For more details, see [https://lpc.web.cern.ch/cgi-bin/getMassiAnnotations.py]
 
 
 ## Input JSON
@@ -119,6 +114,12 @@ Disable this check with:
 ```bash
 --no-lumi
 ```
+
+`--lumi-acct-tag OflLumiAcct-Run3-XXX` is the ATLAS luminosity accounting tag.
+`OflLumiAcct-Run3-008` is set as the default in `config.py`.
+`OflLumiAcct-Run3-010` was tested, but it did not work 
+
+For more details, see [https://lpc.web.cern.ch/cgi-bin/getMassiAnnotations.py]
 
 ## DAQ Condition
 There are two DAQ filters in `daq_conditions.py`.
