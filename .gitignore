@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+
+.asetup.save
+faser-secret.json
+setup.sh
+
+/output/
+/build/
+/build-*/
+/local/
+/vendor/
+*.egg-info/
+.venv/
+.pytest_cache/
+
+.DS_Store
