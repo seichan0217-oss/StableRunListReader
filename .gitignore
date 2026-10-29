@@ -1,12 +1,17 @@
 __pycache__/
 *.py[cod]
 
-README.md
-README_en.md
-README_ja.md
-
 .asetup.save
 faser-secret.json
-output.json
+setup.sh
+
+/output/
+/build/
+/build-*/
+/local/
+/vendor/
+*.egg-info/
+.venv/
+.pytest_cache/
 
 .DS_Store

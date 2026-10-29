@@ -28,7 +28,7 @@ from __future__ import print_function
 from PyCool import cool
 
 # Get our global DB handler object
-from LumiDBHandler import LumiDBHandler
+from .LumiDBHandler import LumiDBHandler
 
 
 class CoolDataReader:

@@ -3,6 +3,9 @@
 
 from __future__ import annotations
 
+from pathlib import Path
+from .config import RUN_TIMES_JSON
+
 import argparse
 import json
 import sys
@@ -55,6 +58,7 @@ def extract_runs(
 
 
 def write_json(path: str, runs: list[dict[str, object]]) -> None:
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as output:
         json.dump(runs, output, indent=2, sort_keys=True)
         output.write("\n")
@@ -70,7 +74,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "-o",
         "--output",
-        default="ahcal_run_times.json",
+        default=str(RUN_TIMES_JSON),
         help="output JSON path (default: %(default)s)",
     )
     parser.add_argument(

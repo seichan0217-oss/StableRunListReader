@@ -6,11 +6,10 @@
 #   setupATLAS -c centos7 -m /eos:/eos
 #   asetup Athena,22.0.49
 #
-# This local setup keeps StableRunListReader runnable from this directory. The
-# CoolDataReader helpers it needs are vendored under StableRunListReader/python.
+# Use the checkout without installing it. COOL helpers are part of the package.
 _stable_runlist_reader_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
 
-export PYTHONPATH="${_stable_runlist_reader_dir}:${_stable_runlist_reader_dir}/python:${PYTHONPATH}"
-export PATH="${_stable_runlist_reader_dir}:${PATH}"
+export PYTHONPATH="${_stable_runlist_reader_dir}${PYTHONPATH:+:${PYTHONPATH}}"
+export PATH="${_stable_runlist_reader_dir}/scripts:${_stable_runlist_reader_dir}/build/bin:${PATH}"
 
 unset _stable_runlist_reader_dir

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ahcal-stable-runlist"
+version = "0.1.0"
+description = "AHCAL stable run lists, raw trigger rates, and effective luminosity"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy"]
+
+[project.optional-dependencies]
+analysis = ["matplotlib", "scipy"]
+runinfo = ["pandas"]
+
+[project.scripts]
+stable-runlist = "stable_runlist.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["stable_runlist*"]

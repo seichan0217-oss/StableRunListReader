@@ -20,6 +20,7 @@ def load_runs(path):
 
 
 def write_runs(path, runs):
+    path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as output_file:
         json.dump(runs, output_file, indent=2)
         output_file.write("\n")
