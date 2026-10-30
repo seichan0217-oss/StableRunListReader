@@ -105,6 +105,32 @@ Missing LB data are downloaded with PyCool.
 Results are saved as `luminosity.csv`, `luminosity.json`, and
 `luminosity_total.json` in `output/luminosity/<selection_id>/`.
 
+By default, the JSON contains one summary per run without `luminosity_blocks`.
+Luminosity uncertainties are reported only as combined `total_error_minus` and
+`total_error_plus` values (including covered-data totals for incomplete runs).
+Statistical/systematic components and deadtime-variation values are kept
+internally for aggregation but omitted from output. The LB cache remains detailed.
+
+Add `--include-lumiblocks` to include a `luminosity_blocks` list in each run's JSON
+record, with the same combined-error format. CSV output remains one row per run.
+
+```bash
+python3 scripts/calculate_luminosity.py \
+  --input output/runlists/good_intervals.csv \
+  --include-lumiblocks
+```
+
+The run-list command uses the same default and option. For example, to update
+an existing JSON using its stable intervals and cached analysis inputs:
+
+```bash
+python3 -m stable_runlist luminosity \
+  --run-json output/runlists/goodlist_with_lumi.json
+```
+
+Append `--include-lumiblocks` to keep per-LB details, or also use
+`--output output/runlists/goodlist_with_lumi_by_lb.json` to save them separately.
+
 For steps 3 and 4, `--input` can be a stable list, a good list, or another interval
 CSV in the same format. The start and stop times in each row define the interval
 to analyze. `--run` selects a run within that CSV. Omit it to process all runs,

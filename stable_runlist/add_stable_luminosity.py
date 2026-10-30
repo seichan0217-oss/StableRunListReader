@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Add LB-based luminosities to an existing run list, preserving its selections."""
+"""Add run-level luminosity summaries to a run list, preserving its selections."""
 
 from .config import OUTPUT_DIR, RAW_RATE_DIR, RUNLIST_JSON, BACKUP_DIR, MODEL_JSON
 
@@ -36,17 +36,27 @@ def write_json(path, data):
     temporary.replace(path)
 
 
-def compact_luminosity_output(record):
-    """Keep combined uncertainties; omit their components and calculation metadata."""
+def compact_luminosity_output(record, *, include_lumiblocks=False):
+    """Format run totals, optionally including LBs, with combined errors only.
+
+    Keep all uncertainty components in the calculator results until aggregation
+    is complete: common deadtime variations must be added coherently.
+    """
     prefixes = (
         "effective_luminosity_stat_", "effective_luminosity_covered_stat_",
         "effective_luminosity_deadtime_sys_", "effective_luminosity_covered_deadtime_sys_",
+        "effective_luminosity_at_deadtime_", "effective_luminosity_covered_at_deadtime_",
     )
+    omitted = {"luminosity_calculation"}
+    if not include_lumiblocks:
+        omitted.add("luminosity_blocks")
     result = {key: value for key, value in record.items()
-              if key != "luminosity_calculation" and not key.startswith(prefixes)}
+              if key not in omitted and not key.startswith(prefixes)}
     if "luminosity_blocks" in result:
-        result["luminosity_blocks"] = [compact_luminosity_output(block)
-                                       for block in result["luminosity_blocks"]]
+        result["luminosity_blocks"] = [
+            compact_luminosity_output(block, include_lumiblocks=True)
+            for block in result["luminosity_blocks"]
+        ]
     return result
 
 
@@ -199,6 +209,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run-json", type=Path, default=RUNLIST_JSON)
     parser.add_argument("--output", type=Path, help="defaults to updating --run-json, with a backup")
+    parser.add_argument("--include-lumiblocks", action="store_true",
+                        help="include per-LB details in JSON in addition to run totals (default: run totals only)")
     parser.add_argument("--model", type=Path, default=DEFAULT_MODEL)
     parser.add_argument("--prepost-ratio-csv", type=Path, action="append")
     parser.add_argument("--trigger-rate-dir", type=Path, action="append")
@@ -241,7 +253,8 @@ def main():
         ratio = ratios.get(number)
         calculator = StableLuminosityCalculator(CachedLuminosityReader(cached["blocks"]), model)
         result = calculator.calculate(run["stable_list"], bins, ratio)
-        output_runs.append(compact_luminosity_output(dict(run, **result)))
+        output_runs.append(compact_luminosity_output(
+            dict(run, **result), include_lumiblocks=args.include_lumiblocks))
         print(f"run {number}: {result['luminosity_calculation_status']}, "
               f"missing {result['effective_luminosity_missing_time_sec']:.3f} s", flush=True)
     output = args.output or args.run_json

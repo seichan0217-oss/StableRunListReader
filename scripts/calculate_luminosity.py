@@ -22,6 +22,8 @@ def main(argv=None):
     parser.add_argument("--input", "-i", type=Path, required=True, help="interval CSV; its rows are the integration intervals")
     parser.add_argument("--run", "-r", type=int, action="append", help="restrict to this run in the CSV; repeatable")
     parser.add_argument("--output-dir", type=Path)
+    parser.add_argument("--include-lumiblocks", action="store_true",
+                        help="include per-LB details in JSON in addition to run totals (CSV remains per run)")
     parser.add_argument("--analysis-dir", type=Path, help="stage 3 output; otherwise inferred from the CSV selection")
     parser.add_argument("--model", type=Path, help="shared D1-D3 model; otherwise use stage 3 or the existing calibrated model")
     parser.add_argument("--trigger-rate-dir", type=Path, action="append")
@@ -88,7 +90,8 @@ def main(argv=None):
         print(f"run {number}: {result['luminosity_calculation_status']}, "
               f"missing {result['effective_luminosity_missing_time_sec']:.3f} s", flush=True)
     total = sum_luminosity_results(results)
-    compact = [compact_luminosity_output(result) for result in results]
+    compact = [compact_luminosity_output(result, include_lumiblocks=args.include_lumiblocks)
+               for result in results]
     # These products describe the supplied CSV; the legacy final runlist JSON
     # and previously generated analysis results are not modified.
     write_json(output / "luminosity.json", compact)
